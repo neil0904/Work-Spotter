@@ -1,0 +1,191 @@
+/*-----------import font styles--------------*/
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+</style>
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.navbar{
+    background-color: black;
+}
+.navbar-brand{
+    font-size: 10 rem;
+    color: aqua;
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+.nav-link{
+   
+    color: blueviolet;
+}
+.nav-link:hover, .active{
+   
+    color: aqua;
+    transition: 0.3s;
+}
+.nav-item{
+    color: aqua;
+    font-weight: 500;
+    padding-left: 35px;
+}
+button{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aqua;
+    font-size: 2 rem;
+    border-color: aqua;
+    outline: none;
+    border-radius: 12px;
+    padding: 8px;
+    margin: 15 px ;
+    height: 42 px;
+    width: 150 px;
+    cursor: pointer;
+    transition: all 0.4s;
+
+}
+button:hover, .active{
+    color: aqua;
+    background-color: black;
+    border-color: aqua;
+    
+}
+.btn0:hover{
+    color: black;
+    background-color: aqua;
+   
+}
+
+
+/*-------------------style for main---------------------*/
+
+.main{
+    background: url("/images/jobspotter.jpg") no-repeat;
+    background-size: cover;
+    min-height: 95vh;
+    width: 100%;
+    
+}
+.main h1{
+    font-size: 5rem;
+    font-weight: 700;
+    color: black;
+}
+.main input{
+   height: 42px;
+   width: 70%;
+   padding: 10px;
+   border: none;
+   outline: none;
+
+}
+
+/*-------------------style for category---------------------*/
+
+.navi{
+    color: navy;
+    font-weight: bold;
+}
+.navbar-toggler-icon{
+    background-color: aqua;
+}
+.category h1{
+    font-size: 3.5rem;
+    color: black;
+}
+.card{
+    height: 42vh;
+    width: 80%;
+    margin: 40px;
+}
+.category .card img{
+    transition: transform 0.3s ease-out;
+}
+.category .card img{
+    transform: rotateZ('1.2');
+}
+.category .card :hover{
+   transition:all 0.3s;
+   cursor: pointer;
+   color: aqua;
+   box-shadow: 10px 10px 5px 5px rgba(189,188,188,0.27);
+   -webkit-box-shadow: 10px 10px 5px 5px rgba(189,188,188,0.27);
+   -moz-box-shadow: 10px 10px 5px 5px rgba(189,188,188,0.27);
+   
+}
+.card .navi{
+    color: red;
+    font-weight: bold;
+}
+.card h6{
+    color: black;
+}
+.btn3{
+    height: 70px;
+    width: 70%;
+    border: 1px solid black;
+    font-weight: 500;
+    transition: all 0.4s;
+}
+
+/*-------------------style for class resume---------------------*/
+.resume{
+    background: linear-gradient(rgba(210, 202, 238, 0.73), rgba(60, 63, 93, 0.719)), url("./images/search.jpg") no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    color: white;
+}
+.resume p{
+  
+    font-weight: bold;
+}
+.resume h1{
+    font-size: 3.8rem;
+    
+}
+.btn4{
+    height: auto;
+    width: 150px;
+    transition: all 0.4s;
+}
+
+/*-------------------style for apply---------------------*/
+.apply{
+    background:linear-gradient(rgba(210, 202, 238, 0.73), rgba(60, 63, 93, 0.719)), url("images/network.jpg") no-repeat;
+    background-size: cover;
+    height: 110vh;
+    width: 100%;
+}
+.apply .card {
+    background-color: transparent;
+    color: white;
+    
+}
+
+.slider{
+    width: 100%;
+    height: 95vh;
+    background-color: black;
+    background-size: cover;
+    margin: 95px 0px;
+}
+.circle{
+    height: 200px;
+    width: 200px;
+    background: transparent;
+    border-radius: 50%;
+    display: inline-block;
+}
+.circle img{
+    border-radius: 50%;
+}
+.avatar{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+}
